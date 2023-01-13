@@ -1,0 +1,11 @@
+[package]
+name = "space_game"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+macroquad = { git = "https://github.com/not-fl3/macroquad" }
+legion = { version = "0.3.1", default-features = false, features = ["serialize", "crossbeam-events", "codegen"] }
+rapier2d = "0.4.2"
+ron = "0.6.4"
+serde = { version = "1.0.122", features = ["serde_derive"] }

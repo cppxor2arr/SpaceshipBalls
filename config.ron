@@ -1,0 +1,24 @@
+Settings(
+    player1: Player(
+        up: W,
+        down: S,
+        left: A,
+        right: D,
+        shoot: LeftShift,
+    ),
+    player2: Player(
+        up: W,
+        down: S,
+        left: A,
+        right: D,
+        shoot: LeftShift,
+    ),
+    bullet: Bullet(
+        radius: 0.3,
+        density: 0.01,
+        speed: 12.0,
+        spread: 0.05,
+    ),
+    shoot_cooldown: 0.01,
+    restitution: 1.0,
+)
