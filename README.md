@@ -1,4 +1,4 @@
-# SpaceshipBalls
+# Spaceship Balls
 
 Fly two spaceships around while shooting balls.
 
